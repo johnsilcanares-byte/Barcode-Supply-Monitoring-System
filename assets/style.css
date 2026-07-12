@@ -1,0 +1,121 @@
+/* ===== GLOBAL ===== */
+body {
+    background: #f8fafc;
+    font-family: 'Inter', 'Segoe UI', Tahoma, sans-serif;
+    overflow-x: hidden;
+    color: #1f2937;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+    background: #111827; /* Dark professional color */
+    color: #e5e7eb;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    z-index: 1000;
+    padding: 20px 15px;
+    border-right: 1px solid #1f2937;
+    transition: all 0.3s ease;
+}
+
+/* Sidebar Title / Logo */
+.sidebar h4 {
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+
+/* Links */
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #9ca3af;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+/* Hover */
+.sidebar-link:hover {
+    background: #1f2937;
+    color: #ffffff;
+    transform: translateX(4px);
+}
+
+/* Active */
+.sidebar-link.active {
+    background: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+}
+
+/* Icons */
+.sidebar-link i {
+    font-size: 16px;
+}
+
+/* ===== MAIN CONTENT ===== */
+.main-content {
+    margin-left: 260px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    min-height: 100vh;
+}
+
+/* ===== CARDS ===== */
+.card {
+    border: none;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+/* ===== CONTAINER FIX ===== */
+.container {
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1200px) {
+    .sidebar {
+        width: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .row > [class^="col-"] {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* ===== PREVENT STRETCHING ===== */
+.card, .card-header, .stats-card {
+    width: 100%;
+    box-sizing: border-box;
+}
