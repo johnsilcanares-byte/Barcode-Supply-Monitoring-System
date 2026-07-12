@@ -10,31 +10,21 @@ Features
 Dashboard
 
 Inventory summary
-
 Total products
-
 Total stock quantity
-
 Low stock alerts
-
 Recent inventory activities
-
 Product Management
-
 Add new products
 
 Edit product information
 
 Delete products
-
 Search products
-
 Product categorization
-
 Barcode assignment for each product
 
 Barcode Scanner
-
 The system supports barcode scanning to automate inventory transactions.
 
 Add Stocks
