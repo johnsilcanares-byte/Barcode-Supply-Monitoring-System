@@ -5,9 +5,9 @@ The Supply Inventory System is a web-based inventory management application desi
 
 The system enables administrators to manage inventory records, monitor stock availability, scan barcodes for stock transactions, and generate printable inventory reports.
 
-Features
+# Features
 
-Dashboard
+# Dashboard
 
 Inventory summary
 -Total products
@@ -17,49 +17,49 @@ Inventory summary
 -Product Management
 -Add new products
 
-Edit product information
+# Edit product information
 
-Delete products
-Search products
-Product categorization
-Barcode assignment for each product
+-Delete products
+-Search products
+-Product categorization
+-Barcode assignment for each product
 
-Barcode Scanner
-The system supports barcode scanning to automate inventory transactions.
+# Barcode Scanner
+-The system supports barcode scanning to automate inventory transactions.
 
-Add Stocks
+# Add Stocks
 
-Scan product barcode
-Automatically identify the product
-Enter quantity to add
-Update inventory instantly
+-Scan product barcode
+-Automatically identify the product
+-Enter quantity to add
+-Update inventory instantly
 
-Decrease Stocks
+# Decrease Stocks
 
-Scan product barcode
-Automatically identify the product
-Enter quantity to deduct
-Prevent negative stock quantities
-Automatically update inventory
+-Scan product barcode
+-Automatically identify the product
+-Enter quantity to deduct
+-Prevent negative stock quantities
+-Automatically update inventory
 
-Stock Monitoring
+# Stock Monitoring
 
-View current stock levels
-Monitor available inventory
-Low stock notifications
-Out-of-stock monitoring
-Inventory history
+-View current stock levels
+-Monitor available inventory
+-Low stock notifications
+-Out-of-stock monitoring
+-Inventory history
 
-Inventory Reports
+# Inventory Reports
 
-Complete Inventory Report
-Stock In Report
-Stock Out Report
-Low Stock Report
-Printable reports
-Export-ready reports
+-Complete Inventory Report
+-Stock In Report
+-Stock Out Report
+-Low Stock Report
+-Printable reports
+-Export-ready reports
 
-Default Administrator Account
+# Default Administrator Account
 
-Username	Password
-admin	admin123
+Username: admin
+Password: admin123
