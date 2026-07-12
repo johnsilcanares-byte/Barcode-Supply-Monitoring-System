@@ -1,7 +1,7 @@
 # Barcode-Supply-Monitoring-System
 Overview
 
-The Supply Inventory System is a web-based inventory management application designed to simplify the monitoring, tracking, and management of supplies within an organization. The system utilizes barcode scanning technology to quickly add and deduct stock quantities, reducing manual errors while improving inventory accuracy and operational efficiency.
+The Dr. Emilio B. Espinosa Sr. Memorial State College of Agriculture and Technology (DEBESMSCAT) Supply Inventory System is a web-based inventory management application designed to simplify the monitoring, tracking, and management of supplies within an organization. The system utilizes barcode scanning technology to quickly add and deduct stock quantities, reducing manual errors while improving inventory accuracy and operational efficiency.
 
 The system enables administrators to manage inventory records, monitor stock availability, scan barcodes for stock transactions, and generate printable inventory reports.
 
